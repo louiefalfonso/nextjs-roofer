@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
+import MobileMenu from '@/components/MobileMenu'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
@@ -33,8 +34,9 @@ export default function RootLayout({
       <link href="css/swiper.min.css" rel="stylesheet"/>
       <link href="css/responsive.css" rel="stylesheet"/>
       
-      <body className={inter.className}>
+      <body>
         <Header/>
+        <MobileMenu/>
         {children}
         <Footer/>
       </body>
