@@ -4,6 +4,7 @@ import MobileMenu from '@/components/MobileMenu'
 import ScrollTop from '@/components/ScrollTop'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,9 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
       <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
-
       <link rel="stylesheet" href="css/font-awesome-all.css"/>
       <link rel="stylesheet" href="css/flaticon.css"/>
       <link rel="stylesheet" href="css/owl.css"/>
@@ -34,6 +35,7 @@ export default function RootLayout({
       <link rel="stylesheet" href="css/style.css"/>
       <link rel="stylesheet" href="css/swiper.min.css"/>
       <link rel="stylesheet" href="css/responsive.css"/>
+      </head>
       
       <body>
         <Header/>
@@ -43,7 +45,20 @@ export default function RootLayout({
         <Footer/>
       </body>
 
-
+      <Script type="text/javascript" src="js/jquery.js"/>
+      <Script type="text/javascript" src="js/popper.min.js"/>
+      <Script type="text/javascript" src="js/bootstrap.min.js"/>
+      <Script type="text/javascript" src="js/owl.js"/>
+      <Script type="text/javascript" src="js/wow.js"/>
+      <Script type="text/javascript" src="js/validation.js"/>
+      <Script type="text/javascript" src="js/scrollbar.js"/>
+      <Script type="text/javascript" src="js/appear.js"/>
+      <Script type="text/javascript" src="js/jquery.nice-select.min.js"/>
+      <Script type="text/javascript" src="js/swiper.min.js"/>
+      <Script type="text/javascript" src="js/parallax.min.js"/>
+      <Script type="text/javascript" src="js/jquery.fancybox.js"/>
+      <Script type="text/javascript" src="js/parallax-scroll.js"/>
+      <Script type="text/javascript" src="js/script.js"/>
     </html>
   )
 }
