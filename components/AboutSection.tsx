@@ -85,7 +85,7 @@ export default function AboutSection() {
                             data-wow-delay="100ms"
                             data-wow-duration="1500ms"
                         >
-                            <h2>20 </h2>
+                            <h2>40 </h2>
                             <span>Years of Expericence</span>
                         </div>
                         </div>
@@ -97,13 +97,13 @@ export default function AboutSection() {
                 <div className="about__right__section">
                     <div className="title">
                     <div className="sub__title">
-                        <h6>About Rooftox</h6>
+                        <h6>About Burton Roofing Merchants</h6>
                     </div>
                     <div className="main__title">
                         <h2>
                         Experienced &amp; <br />
                         Quality More Than <br />
-                        30 Years
+                        40 Years
                         </h2>
                     </div>
                     </div>
