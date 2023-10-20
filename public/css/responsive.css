@@ -29,7 +29,7 @@
   }
   @media only screen and (max-width: 1449px){
     .main-menu .navigation > li {
-      margin: 0px 10px;
+      margin: 0px 20px;
     }
     .main-header.style-two .main-menu .navigation > li{
       margin: 0px 20px;
@@ -616,6 +616,7 @@
     }
     .header_top .header_top_left .top_left{
       justify-content: center;
+      text-align: center;
     }
     .banner-carousel .content__box h1{
       font-size: 50px;
