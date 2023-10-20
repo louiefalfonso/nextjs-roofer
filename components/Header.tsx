@@ -213,8 +213,6 @@ export default function Header() {
                     </div>
                     </nav>
                 </div>
-                <div className="header__right">
-                </div>
             </div>
         </div>
         {/*sticky Header*/}

@@ -1,7 +1,4 @@
- 
-/* Css For Roofer */
-
-/************ TABLE OF CONTENTS ***************
+ /************ TABLE OF CONTENTS ***************
 1. Fonts
 2. Reset
 3. Global
@@ -152,6 +149,7 @@ header.main-header.style-three .sticky-header .logo-box .logo img{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-right: 50px;
 }
 .main-header.style-one .menu-right-content {
   display: -webkit-box;

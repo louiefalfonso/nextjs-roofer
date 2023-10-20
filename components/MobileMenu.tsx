@@ -11,7 +11,7 @@ export default function MobileMenu() {
         <nav className="menu-box">
             <div className="nav-logo">
             <a href="index.html">
-                <img src="assets/images/white-logo.png" alt="" title="" />
+                <img src="images/white-logo.png" alt="" title="" />
             </a>
             </div>
             <div className="menu-outer">
