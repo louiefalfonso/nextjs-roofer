@@ -40,15 +40,14 @@ export default function MainBanner() {
                 <div className="content-inner">
                     <div className="content__box">
                     <div className="sub__title">
-                        <h6>20 Years Of Experience</h6>
+                        <h6>Supplying roofing materials to the nation for over 40 years</h6>
                     </div>
                     <h1>
                         Best <span> Roofing </span> Service <br /> &amp;{" "}
-                        <span>Consulting</span>
+                        <span>Merchants</span>
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit <br />{" "}
-                        Turpis ridiculus tellus.
+                        With over £8 Million of high-quality roofing products available on the ground and ready for delivery,<br/> you can count on Burton Roofing Merchants to have what you need at the right price.
                     </p>
                     <div className="btn-box">
                         <a className="btn-one" href="index.html">
@@ -63,7 +62,7 @@ export default function MainBanner() {
             <div className="slide-item">
             <div
                 className="slide__item__content"
-                style={{ backgroundImage: "url(assets/images/banner/banner-06.png)" }}
+                style={{ backgroundImage: "url(images/banner/banner-06.png)" }}
             >
                 <div className="auto_container">
                 <div className="content-inner">
@@ -81,15 +80,6 @@ export default function MainBanner() {
                     </p>
                     <div className="btn-box">
                         <a className="btn-one" href="index.html">
-                        <em>
-                            <i />
-                            <i />
-                            <i />
-                            <i />
-                            <i />
-                            <i />
-                            <i />
-                        </em>
                         <span>Make Appointment</span>
                         </a>
                     </div>
