@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import MobileMenu from '@/components/MobileMenu'
+import ScrollTop from '@/components/ScrollTop'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
@@ -21,23 +22,24 @@ export default function RootLayout({
       <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
 
-      <link href="css/font-awesome-all.css" rel="stylesheet"/>
-      <link href="css/flaticon.css" rel="stylesheet"/>
-      <link href="css/owl.css" rel="stylesheet"/>
-      <link href="css/bootstrap.css" rel="stylesheet"/>
-      <link href="css/jquery.fancybox.min.css" rel="stylesheet"/>
-      <link href="css/animate.css" rel="stylesheet"/>
-      <link href="css/color.css" rel="stylesheet"/>
-      <link href="css/nice-select.css" rel="stylesheet"/>
-      <link href="css/global.css" rel="stylesheet"/>
-      <link href="css/style.css" rel="stylesheet"/>
-      <link href="css/swiper.min.css" rel="stylesheet"/>
-      <link href="css/responsive.css" rel="stylesheet"/>
+      <link rel="stylesheet" href="css/font-awesome-all.css"/>
+      <link rel="stylesheet" href="css/flaticon.css"/>
+      <link rel="stylesheet" href="css/owl.css"/>
+      <link rel="stylesheet" href="css/bootstrap.css"/>
+      <link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
+      <link rel="stylesheet" href="css/animate.css"/>
+      <link rel="stylesheet" href="css/color.css"/>
+      <link rel="stylesheet" href="css/nice-select.css"/>
+      <link rel="stylesheet" href="css/global.css"/>
+      <link rel="stylesheet" href="css/style.css"/>
+      <link rel="stylesheet" href="css/swiper.min.css"/>
+      <link rel="stylesheet" href="css/responsive.css"/>
       
       <body>
         <Header/>
         <MobileMenu/>
         {children}
+        <ScrollTop/>
         <Footer/>
       </body>
 
