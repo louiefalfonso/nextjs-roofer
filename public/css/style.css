@@ -4405,13 +4405,10 @@ section.blog__section.three {
 }
 .page__title .bread-crumb {
   display: flex;
-  justify-content: center;
-  align-items: center;
   padding-top: 10px;
 }
 .page__title .bread-crumb li {
   display: flex;
-  align-items: center;
   font-weight: 700;
   padding-top: 5px;
   color: var(--white-color);
