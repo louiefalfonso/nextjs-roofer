@@ -1,6 +1,10 @@
 import AboutSection from "@/components/AboutSection";
+import BlogSection from "@/components/BlogSection";
 import ChooseSection from "@/components/ChooseSection";
+import FaqSection from "@/components/FaqSection";
+import HelpSection from "@/components/HelpSection";
 import MainBanner from "@/components/MainBanner";
+import NewsletterSection from "@/components/NewsletterSection";
 import PortfolioSection from "@/components/PortfolioSection";
 import ServiceForm from "@/components/ServiceForm";
 import ServiceSection from "@/components/ServiceSection";
@@ -20,6 +24,10 @@ export default function Home() {
    <TestimonialSection/>
    <TeamSection/>
    <PortfolioSection/>
+   <FaqSection/>
+   <HelpSection/>
+   <BlogSection/>
+   <NewsletterSection/>
   </>
   )
 }
