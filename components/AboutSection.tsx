@@ -30,7 +30,7 @@ export default function AboutSection() {
             />
             <div
             className="icon icons-3"
-            style={{ backgroundImage: "url(assets/images/shape/shape-32.png)" }}
+            style={{ backgroundImage: "url(images/shape/shape-32.png)" }}
             />
             <div
             className="icon icons-4 wow zoomIn animated"
@@ -153,7 +153,6 @@ export default function AboutSection() {
             </div>
         </div>
     </section>
-
     </>
   )
 }
