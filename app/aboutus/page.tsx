@@ -1,6 +1,10 @@
 
 import AboutusSection from '@/components/AboutusSection'
+import ChooseSectionTwo from '@/components/ChooseSectionTwo'
+import FunFactSection from '@/components/FunFactSection'
 import HistorySection from '@/components/HistorySection'
+import TeamsSection from '@/components/TeamsSection'
+import TestimonialsAbout from '@/components/TestimonialsAbout'
 import React from 'react'
 
 export default function page() {
@@ -21,6 +25,10 @@ export default function page() {
     </section>
     <AboutusSection/>
     <HistorySection/>
+    <FunFactSection/>
+    <ChooseSectionTwo/>
+    <TeamsSection/>
+    <TestimonialsAbout/>
     </>
   )
 }
