@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function MobileMenu() {
   return (
@@ -10,9 +11,9 @@ export default function MobileMenu() {
         </div>
         <nav className="menu-box">
             <div className="nav-logo">
-                <a href="index.html">
+                <Link href="/" passHref>
                     <img src="images/white-logo.svg" alt="" title="" />
-                </a>
+                </Link>
             </div>
             <div className="menu-outer">
             {/*Here Menu Will Come Automatically Via Javascript / Same Menu as in Header*/}
@@ -31,14 +32,13 @@ export default function MobileMenu() {
             </div>
             <div className="social-links">
             <ul className="clearfix">
+                <li> <Link href="/" passHref><span className="fab fa-twitter" /></Link></li>
+                <li> <Link href="/" passHref><span className="fab fa-facebook-square" /></Link></li>
+                <li> <Link href="/" passHref><span className="fab fa-twitter" /></Link></li>
+                <li> <Link href="/" passHref><span className="fab fa-twitter" /></Link></li>
                 <li>
                 <a href="index.html">
-                    <span className="fab fa-twitter" />
-                </a>
-                </li>
-                <li>
-                <a href="index.html">
-                    <span className="fab fa-facebook-square" />
+                    
                 </a>
                 </li>
                 <li>

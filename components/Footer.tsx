@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Link
+ from 'next/link'
 export default function 
 () {
   return (
@@ -108,21 +109,12 @@ export default function
                                 </div>
                                 <div className="widget_content">
                                 <ul className="links_list clearfix">
-                                    <li>
-                                    <a href="about.html">About Us</a>
-                                    </li>
-                                    <li>
-                                    <a href="service.html">Services</a>
-                                    </li>
-                                    <li>
-                                    <a href="index.html">Case</a>
-                                    </li>
-                                    <li>
-                                    <a href="index.html">Roof Repair</a>
-                                    </li>
-                                    <li>
-                                    <a href="index.html">Contact Us</a>
-                                    </li>
+                                    <li><Link href="/aboutus" passHref>About Us</Link></li>
+                                    <li><Link href="/projects" passHref>Projects</Link></li>
+                                    <li><Link href="/services" passHref>Services</Link></li>
+                                    <li><Link href="/pricing" passHref>Pricing</Link></li>
+                                    <li><Link href="/faq" passHref>FAQ</Link></li>
+                                    <li><Link href="/contactus" passHref>Contact Us</Link></li>
                                 </ul>
                                 </div>
                             </div>
@@ -134,7 +126,7 @@ export default function
                                 </div>
                                 <div className="widget_content">
                                 <ul className="links_list clearfix">
-                                    <li>Tincidunt neque pretium lectus donec risus.</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing integer ultrices suspendisse varius etiam est</li>
                                     <li>Mon - Fri: 9:00AM - 6:00PM</li>
                                     <li>Sat - Sun: 8:00AM - 4:00PM</li>
                                 </ul>
@@ -152,12 +144,10 @@ export default function
                                     <li>
                                     <div className="inner__box">
                                         <div className="image__box">
-                                        <a href="index.html">
                                             <img
                                             src="images/resource/instagram-01.png"
                                             alt=""
                                             />
-                                        </a>
                                         </div>
                                     </div>
                                     </li>
