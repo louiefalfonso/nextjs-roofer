@@ -18,7 +18,7 @@ export default function BlogSection() {
                 </div>
                 <div className="main__title">
                 <h2>
-                    Get More Update From <br /> RoofTox
+                    Get More Update From <br /> Burton Roofing Merchants
                 </h2>
                 </div>
             </div>

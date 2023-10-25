@@ -53,7 +53,7 @@ export default function Header() {
                     style={{ backgroundImage: "url(images/shape/shape-02.png)" }}
                     >
                     <a href="index.html">
-                        <img src="images/logo.png" alt="" />
+                        <img src="images/logo.svg" alt="" />
                     </a>
                     </figure>
                 </div>
@@ -75,7 +75,7 @@ export default function Header() {
                 <div className="logo-box">
                 <figure className="logo">
                     <a href="index.html">
-                    <img src="images/logo.png" alt="" />
+                    <img src="images/logo.svg" alt="" />
                     </a>
                 </figure>
                 </div>
