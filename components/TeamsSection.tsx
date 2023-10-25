@@ -37,7 +37,7 @@ export default function TeamsSection() {
                     <div className="lower_content__two">
                     <div className="team_info">
                         <h4>
-                        <a href="team-details.html">Brooklyn Simmons</a>
+                        Brooklyn Simmons
                         </h4>
                         <span className="designation">Founder</span>
                     </div>
@@ -65,7 +65,7 @@ export default function TeamsSection() {
                     <div className="lower_content__two">
                     <div className="team_info">
                         <h4>
-                        <a href="team-details.html">Guy Hawkins</a>
+                        Guy Hawkins
                         </h4>
                         <span className="designation">Worker</span>
                     </div>
@@ -93,7 +93,7 @@ export default function TeamsSection() {
                     <div className="lower_content__two">
                     <div className="team_info">
                         <h4>
-                        <a href="team-details.html">Cody Fisher</a>
+                        Cody Fisher
                         </h4>
                         <span className="designation">Consultant</span>
                     </div>
@@ -121,7 +121,7 @@ export default function TeamsSection() {
                     <div className="lower_content__two">
                     <div className="team_info">
                         <h4>
-                        <a href="team-details.html">Mathim Moni</a>
+                        Mathim Moni
                         </h4>
                         <span className="designation">CTO</span>
                     </div>

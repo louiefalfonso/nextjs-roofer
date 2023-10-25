@@ -3,6 +3,7 @@ import AboutusSection from '@/components/AboutusSection'
 import ChooseSectionTwo from '@/components/ChooseSectionTwo'
 import FunFactSection from '@/components/FunFactSection'
 import HistorySection from '@/components/HistorySection'
+import NewsLetterSectionTwo from '@/components/NewsLetterSectionTwo'
 import TeamsSection from '@/components/TeamsSection'
 import TestimonialsAbout from '@/components/TestimonialsAbout'
 import React from 'react'
@@ -29,6 +30,7 @@ export default function page() {
     <ChooseSectionTwo/>
     <TeamsSection/>
     <TestimonialsAbout/>
+    <NewsLetterSectionTwo/>
     </>
   )
 }
