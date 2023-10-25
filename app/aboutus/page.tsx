@@ -1,4 +1,6 @@
-import AboutusSection from '@/components/ABoutusSection'
+
+import AboutusSection from '@/components/AboutusSection'
+import HistorySection from '@/components/HistorySection'
 import React from 'react'
 
 export default function page() {
@@ -18,6 +20,7 @@ export default function page() {
       </div>
     </section>
     <AboutusSection/>
+    <HistorySection/>
     </>
   )
 }

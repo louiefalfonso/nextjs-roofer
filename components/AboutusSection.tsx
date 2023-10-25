@@ -17,7 +17,7 @@ export default function AboutusSection() {
                                     <h2>
                                     Experienced &amp; <br />
                                     Quality More Than <br />
-                                    30 Years
+                                    40 Years
                                     </h2>
                                 </div>
                             </div>
@@ -68,15 +68,6 @@ export default function AboutusSection() {
                             </div>
                             <div className="about__btn">
                                 <a className="btn-one" href="about.html">
-                                <em>
-                                    <i />
-                                    <i />
-                                    <i />
-                                    <i />
-                                    <i />
-                                    <i />
-                                    <i />
-                                </em>
                                 <span>Read More</span>
                                 </a>
                             </div>
@@ -122,7 +113,7 @@ export default function AboutusSection() {
                             }}
                             >
                             <div className="about__two__text">
-                                <h2>20 </h2>
+                                <h2>40 </h2>
                                 <span>Years of Expericence</span>
                             </div>
                             </div>
