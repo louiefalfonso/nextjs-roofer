@@ -1,6 +1,5 @@
 import React from 'react'
-import Link
- from 'next/link'
+import Link from 'next/link'
 export default function 
 () {
   return (
@@ -22,31 +21,11 @@ export default function
                         <div className="footer__top__right">
                             <div className="footer__social__media">
                             <ul>
-                                <li>
-                                <a href="index.html">
-                                    <span className="icon-2" />
-                                </a>
-                                </li>
-                                <li>
-                                <a href="index.html">
-                                    <span className="icon-1" />
-                                </a>
-                                </li>
-                                <li>
-                                <a href="index.html">
-                                    <span className="icon-23" />
-                                </a>
-                                </li>
-                                <li>
-                                <a href="index.html">
-                                    <span className="icon-3" />
-                                </a>
-                                </li>
-                                <li>
-                                <a href="index.html">
-                                    <span className="icon-24" />
-                                </a>
-                                </li>
+                                <li><Link href="https://www.facebook.com/" passHref><span className="icon-2" /></Link></li>
+                                <li><Link href="https://twitter.com/" passHref><span className="icon-1" /></Link></li>
+                                <li><Link href="https://www.instagram.com/" passHref><span className="icon-23" /></Link></li>
+                                <li><Link href="https://www.linkedin.com/" passHref><span className="icon-3" /></Link></li>
+                                <li><Link href="https://www.pinterest.com/" passHref><span className="icon-24" /></Link></li>
                             </ul>
                             </div>
                         </div>
@@ -65,11 +44,10 @@ export default function
                                     <div className="widget_content">
                                     <ul className="links_list clearfix">
                                         <li>
-                                        Tincidunt neque pretium lectus <br />
-                                        donec risus.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing integer ultrices suspendisse varius etiam est
                                         </li>
                                         <li>
-                                        <span>Add:</span> New Hyde Park, NY 11040
+                                        <span>Address:</span> New Hyde Park, NY 11040
                                         </li>
                                         <li>
                                         <span>Email:</span>{" "}
@@ -83,21 +61,9 @@ export default function
                                     </div>
                                     <div className="widget_media">
                                     <ul>
-                                        <li>
-                                        <a href="index.html">
-                                            <span className="icon-2" />
-                                        </a>
-                                        </li>
-                                        <li>
-                                        <a href="index.html">
-                                            <span className="icon-1" />
-                                        </a>
-                                        </li>
-                                        <li>
-                                        <a href="index.html">
-                                            <span className="icon-23" />
-                                        </a>
-                                        </li>
+                                        <li><Link href="https://www.facebook.com/" passHref><span className="icon-2" /></Link></li>
+                                        <li><Link href="https://twitter.com/" passHref><span className="icon-1" /></Link></li>
+                                         <li><Link href="https://www.instagram.com/" passHref><span className="icon-23" /></Link></li>
                                     </ul>
                                     </div>
                                 </div>
@@ -154,60 +120,50 @@ export default function
                                     <li>
                                     <div className="inner__box">
                                         <div className="image__box">
-                                        <a href="index.html">
                                             <img
                                             src="images/resource/instagram-02.png"
                                             alt=""
                                             />
-                                        </a>
                                         </div>
                                     </div>
                                     </li>
                                     <li>
                                     <div className="inner__box">
                                         <div className="image__box">
-                                        <a href="index.html">
                                             <img
                                             src="images/resource/instagram-03.png"
                                             alt=""
                                             />
-                                        </a>
                                         </div>
                                     </div>
                                     </li>
                                     <li>
                                     <div className="inner__box">
                                         <div className="image__box">
-                                        <a href="index.html">
                                             <img
                                             src="images/resource/instagram-04.png"
                                             alt=""
                                             />
-                                        </a>
                                         </div>
                                     </div>
                                     </li>
                                     <li>
                                     <div className="inner__box">
                                         <div className="image__box">
-                                        <a href="index.html">
                                             <img
                                             src="images/resource/instagram-05.png"
                                             alt=""
                                             />
-                                        </a>
                                         </div>
                                     </div>
                                     </li>
                                     <li>
                                     <div className="inner__box">
                                         <div className="image__box">
-                                        <a href="index.html">
                                             <img
                                             src="images/resource/instagram-06.png"
                                             alt=""
                                             />
-                                        </a>
                                         </div>
                                     </div>
                                     </li>
@@ -226,7 +182,7 @@ export default function
                 <div className="copyright">
                 <p>
                     {" "}
-                    Copyright 2022 by <a href="index.html">Roofer</a> theme All Right
+                    Copyright 2023 Burton Roofing Merchants. All Right
                     Reserved.
                 </p>
                 </div>

@@ -1,5 +1,6 @@
 "use client";
 import React from 'react'
+import Link from 'next/link';
 import NavigationBar from './NavigationBar'
 
 export default function Header() {
@@ -25,21 +26,9 @@ export default function Header() {
                     <ul className="top_right">
                         <li>
                         <ul className="top_smedia">
-                            <li>
-                            <a href="index.html">
-                                <span className="icon-2" />
-                            </a>
-                            </li>
-                            <li>
-                            <a href="index.html">
-                                <span className="icon-1" />
-                            </a>
-                            </li>
-                            <li>
-                            <a href="index.html">
-                                <span className="icon-3" />
-                            </a>
-                            </li>
+                            <li><Link href="https://www.facebook.com/" passHref><span className="icon-2" /></Link></li>
+                            <li><Link href="https://twitter.com/" passHref><span className="icon-1" /></Link></li>
+                            <li><Link href="https://www.instagram.com/" passHref><span className="icon-23" /></Link></li>
                         </ul>
                         </li>
                     </ul>
@@ -52,9 +41,9 @@ export default function Header() {
                     className="logo"
                     style={{ backgroundImage: "url(images/shape/shape-02.png)" }}
                     >
-                    <a href="index.html">
+                    <Link href="/" passHref>
                         <img src="images/logo.svg" alt="" />
-                    </a>
+                    </Link>
                     </figure>
                 </div>
                 <div className="menu-area">
@@ -74,9 +63,9 @@ export default function Header() {
             <div className="outer-box">
                 <div className="logo-box">
                 <figure className="logo">
-                    <a href="index.html">
-                    <img src="images/logo.svg" alt="" />
-                    </a>
+                    <Link href="/" passHref>
+                        <img src="images/logo.svg" alt="" />
+                    </Link>
                 </figure>
                 </div>
                 <div className="menu-area">

@@ -32,30 +32,11 @@ export default function MobileMenu() {
             </div>
             <div className="social-links">
             <ul className="clearfix">
-                <li> <Link href="/" passHref><span className="fab fa-twitter" /></Link></li>
-                <li> <Link href="/" passHref><span className="fab fa-facebook-square" /></Link></li>
-                <li> <Link href="/" passHref><span className="fab fa-twitter" /></Link></li>
-                <li> <Link href="/" passHref><span className="fab fa-twitter" /></Link></li>
-                <li>
-                <a href="index.html">
-                    
-                </a>
-                </li>
-                <li>
-                <a href="index.html">
-                    <span className="fab fa-pinterest-p" />
-                </a>
-                </li>
-                <li>
-                <a href="index.html">
-                    <span className="fab fa-instagram" />
-                </a>
-                </li>
-                <li>
-                <a href="index.html">
-                    <span className="fab fa-youtube" />
-                </a>
-                </li>
+                <li><Link href="https://www.facebook.com/" passHref><span className="fab fa-facebook-square" /></Link></li>
+                <li><Link href="https://twitter.com/" passHref><span className="fab fa-twitter" /></Link></li>
+                <li><Link href="https://www.instagram.com/" passHref><span className="fab fa-instagram" /></Link></li>
+                <li><Link href="https://www.linkedin.com/" passHref><span className="icon-3" /></Link></li>
+                <li><Link href="https://www.pinterest.com/" passHref><span className="fab fa-pinterest-p" /></Link></li>
             </ul>
             </div>
         </nav>
