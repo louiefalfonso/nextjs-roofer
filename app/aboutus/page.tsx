@@ -7,6 +7,7 @@ import NewsLetterSectionTwo from '@/components/NewsLetterSectionTwo'
 import TeamsSection from '@/components/TeamsSection'
 import TestimonialsAbout from '@/components/TestimonialsAbout'
 import React from 'react'
+import Link from 'next/link'
 
 export default function page() {
   return (
@@ -17,7 +18,7 @@ export default function page() {
         <div className="content-box p_relative">
           <h1 className="title">About Us</h1>
           <ul className="bread-crumb">
-            <li><a href="index.html">Home </a></li>
+            <li><Link href="/" passHref>Home</Link></li>
             <li><span> - </span>About{" "}
             </li>
           </ul>
