@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function ServiceSection() {
   return (
@@ -26,9 +27,9 @@ export default function ServiceSection() {
                     <div className="inner__box">
                     <div className="image__box">
                         <figure className="image">
-                        <a href="service-details.html">
-                            <img src="images/service/service-01.png" alt="" />
-                        </a>
+                            <Link href="/service-details" passHref>
+                                <img src="images/service/service-01.png" alt="" />
+                            </Link>
                         </figure>
                     </div>
                     <div className="lower__content">
@@ -58,7 +59,7 @@ export default function ServiceSection() {
                         <div className="service__title">
                         <h4>
                             {" "}
-                            <a href="service-details.html"> Roofing Layer </a>
+                            <Link href="/service-details" passHref> Roofing Layer </Link>
                         </h4>
                         </div>
                         <div className="service__text">
@@ -68,10 +69,10 @@ export default function ServiceSection() {
                         </p>
                         </div>
                         <div className="more__btn">
-                        <a href="service-details.html">
-                            Read More <span className="icon-53" />{" "}
+                            <Link href="/service-details" passHref>
+                                Read More <span className="icon-53" />{" "}
                             <span className="icon-52" />
-                        </a>
+                            </Link>
                         </div>
                     </div>
                     </div>
@@ -86,9 +87,9 @@ export default function ServiceSection() {
                     <div className="inner__box">
                     <div className="image__box">
                         <figure className="image">
-                        <a href="service-details.html">
-                            <img src="images/service/service-02.png" alt="" />
-                        </a>
+                            <Link href="/service-details" passHref>
+                                <img src="images/service/service-02.png" alt="" />
+                            </Link>
                         </figure>
                     </div>
                     <div className="lower__content">
@@ -118,7 +119,7 @@ export default function ServiceSection() {
                         <div className="service__title">
                         <h4>
                             {" "}
-                            <a href="service-details.html"> Damage Repair </a>
+                            <Link href="/service-details" passHref> Damage Repair</Link>
                         </h4>
                         </div>
                         <div className="service__text">
@@ -128,10 +129,10 @@ export default function ServiceSection() {
                         </p>
                         </div>
                         <div className="more__btn">
-                        <a href="service-details.html">
-                            Read More <span className="icon-53" />{" "}
+                            <Link href="/service-details" passHref>
+                                Read More <span className="icon-53" />{" "}
                             <span className="icon-52" />
-                        </a>
+                            </Link>
                         </div>
                     </div>
                     </div>
@@ -146,9 +147,10 @@ export default function ServiceSection() {
                     <div className="inner__box">
                     <div className="image__box">
                         <figure className="image">
-                        <a href="service-details.html">
-                            <img src="images/service/service-03.png" alt="" />
-                        </a>
+                            <Link href="/service-details" passHref>
+                                <img src="images/service/service-03.png" alt="" />
+                            </Link>
+
                         </figure>
                     </div>
                     <div className="lower__content">
@@ -178,7 +180,7 @@ export default function ServiceSection() {
                         <div className="service__title">
                         <h4>
                             {" "}
-                            <a href="service-details.html">Roof Cornering </a>
+                            <Link href="/service-details" passHref>Roof Cornering</Link>
                         </h4>
                         </div>
                         <div className="service__text">
@@ -188,10 +190,10 @@ export default function ServiceSection() {
                         </p>
                         </div>
                         <div className="more__btn">
-                        <a href="service-details.html">
-                            Read More <span className="icon-53" />{" "}
+                            <Link href="/service-details" passHref>
+                                Read More <span className="icon-53" />{" "}
                             <span className="icon-52" />
-                        </a>
+                            </Link>
                         </div>
                     </div>
                     </div>

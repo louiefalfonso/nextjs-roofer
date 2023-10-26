@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 export default function PortfolioSection() {
   return (
     <>
@@ -23,7 +23,7 @@ export default function PortfolioSection() {
                 <div className="portfolio__block">
                     <span>Maintenance</span>
                     <h4>
-                    <a href="project-details.html">Quality Materials</a>
+                        <Link href="/projects" passHref>Quality Materials</Link>
                     </h4>
                 </div>
                 </div>
@@ -47,7 +47,7 @@ export default function PortfolioSection() {
                 <div className="portfolio__block">
                     <span>Alfa Project</span>
                     <h4>
-                    <a href="project-details.html">Roof Repair</a>
+                    <Link href="/projects" passHref>Roof Repair</Link>
                     </h4>
                 </div>
                 </div>
@@ -71,7 +71,7 @@ export default function PortfolioSection() {
                 <div className="portfolio__block">
                     <span>Residential</span>
                     <h4>
-                    <a href="project-details.html">Renovation Of Roof</a>
+                    <Link href="/projects" passHref>Renovation Of Roof</Link>
                     </h4>
                 </div>
                 </div>
@@ -95,7 +95,7 @@ export default function PortfolioSection() {
                 <div className="portfolio__block">
                     <span>Residential</span>
                     <h4>
-                    <a href="project-details.html">Roof Construction</a>
+                    <Link href="/projects" passHref>Roof Construction</Link>
                     </h4>
                 </div>
                 </div>

@@ -32,9 +32,9 @@ export default function BlogSection() {
                     <div className="inner__box">
                     <div className="image__box">
                         <figure className="image">
-                        <a href="blog-details.html">
+                        
                             <img src="images/news/news-01.png" alt="" />
-                        </a>
+                        
                         </figure>
                     </div>
                     <div className="lower__content">
@@ -57,10 +57,10 @@ export default function BlogSection() {
                         <div className="news__title">
                         <h4>
                             {" "}
-                            <a href="blog-details.html">
+                            
                             {" "}
                             How to Handle Unexpected Situations on Road{" "}
-                            </a>
+                            
                         </h4>
                         </div>
                         <div className="author__info">
@@ -81,7 +81,7 @@ export default function BlogSection() {
                         </p>
                         </div>
                         <div className="more__btn">
-                        <a href="blog-details.html">
+                        <a href="#">
                             Read More <span className="icon-53" />{" "}
                             <span className="icon-52" />
                         </a>
@@ -99,9 +99,7 @@ export default function BlogSection() {
                     <div className="inner__box">
                     <div className="image__box">
                         <figure className="image">
-                        <a href="blog-details.html">
                             <img src="images/news/news-02.png" alt="" />
-                        </a>
                         </figure>
                     </div>
                     <div className="lower__content">
@@ -124,10 +122,10 @@ export default function BlogSection() {
                         <div className="news__title">
                         <h4>
                             {" "}
-                            <a href="blog-details.html">
+                            
                             {" "}
                             How to Handle Unexpected Situations on Road{" "}
-                            </a>
+                            
                         </h4>
                         </div>
                         <div className="author__info">
@@ -148,7 +146,7 @@ export default function BlogSection() {
                         </p>
                         </div>
                         <div className="more__btn">
-                        <a href="blog-details.html">
+                        <a href="#">
                             Read More <span className="icon-53" />{" "}
                             <span className="icon-52" />
                         </a>
@@ -166,9 +164,7 @@ export default function BlogSection() {
                     <div className="inner__box">
                     <div className="image__box">
                         <figure className="image">
-                        <a href="blog-details.html">
                             <img src="images/news/news-03.png" alt="" />
-                        </a>
                         </figure>
                     </div>
                     <div className="lower__content">
@@ -191,10 +187,10 @@ export default function BlogSection() {
                         <div className="news__title">
                         <h4>
                             {" "}
-                            <a href="blog-details.html">
+                            
                             {" "}
                             How to Handle Unexpected Situations on Road{" "}
-                            </a>
+                            
                         </h4>
                         </div>
                         <div className="author__info">
@@ -215,7 +211,7 @@ export default function BlogSection() {
                         </p>
                         </div>
                         <div className="more__btn">
-                        <a href="blog-details.html">
+                        <a href="#">
                             Read More <span className="icon-53" />{" "}
                             <span className="icon-52" />
                         </a>

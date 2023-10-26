@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function TeamSection() {
   return (
@@ -26,21 +27,9 @@ export default function TeamSection() {
                     <div className="overlay">
                         <div className="inner__box">
                         <ul className="social_links">
-                            <li>
-                            <a href="index.html">
-                                <span className="icon-2" />
-                            </a>
-                            </li>
-                            <li>
-                            <a href="index.html">
-                                <span className="icon-1" />
-                            </a>
-                            </li>
-                            <li>
-                            <a href="index.html">
-                                <span className="icon-23" />
-                            </a>
-                            </li>
+                            <li><Link href="https://www.facebook.com/" passHref><span className="icon-2" /></Link></li>
+                            <li><Link href="https://twitter.com/" passHref><span className="icon-1" /></Link></li>
+                            <li><Link href="https://www.instagram.com/" passHref><span className="icon-23" /></Link></li>
                         </ul>
                         </div>
                     </div>
@@ -51,7 +40,7 @@ export default function TeamSection() {
                     >
                     <div className="team_info">
                         <h4>
-                        <a href="team-details.html">Brooklyn Simmons</a>
+                        Brooklyn Simmons
                         </h4>
                         <span className="designation">Founder</span>
                     </div>
@@ -69,21 +58,9 @@ export default function TeamSection() {
                     <div className="overlay">
                         <div className="inner_box">
                         <ul className="social_links">
-                            <li>
-                            <a href="index.html">
-                                <span className="icon-2" />
-                            </a>
-                            </li>
-                            <li>
-                            <a href="index.html">
-                                <span className="icon-1" />
-                            </a>
-                            </li>
-                            <li>
-                            <a href="index.html">
-                                <span className="icon-23" />
-                            </a>
-                            </li>
+                            <li><Link href="https://www.facebook.com/" passHref><span className="icon-2" /></Link></li>
+                            <li><Link href="https://twitter.com/" passHref><span className="icon-1" /></Link></li>
+                            <li><Link href="https://www.instagram.com/" passHref><span className="icon-23" /></Link></li>
                         </ul>
                         </div>
                     </div>
@@ -94,7 +71,7 @@ export default function TeamSection() {
                     >
                     <div className="team_info">
                         <h4>
-                        <a href="team-details.html">Guy Hawkins</a>
+                        Guy Hawkins
                         </h4>
                         <span className="designation">Worker</span>
                     </div>
@@ -112,21 +89,9 @@ export default function TeamSection() {
                     <div className="overlay">
                         <div className="inner_box">
                         <ul className="social_links">
-                            <li>
-                            <a href="index.html">
-                                <span className="icon-2" />
-                            </a>
-                            </li>
-                            <li>
-                            <a href="index.html">
-                                <span className="icon-1" />
-                            </a>
-                            </li>
-                            <li>
-                            <a href="index.html">
-                                <span className="icon-23" />
-                            </a>
-                            </li>
+                            <li><Link href="https://www.facebook.com/" passHref><span className="icon-2" /></Link></li>
+                            <li><Link href="https://twitter.com/" passHref><span className="icon-1" /></Link></li>
+                            <li><Link href="https://www.instagram.com/" passHref><span className="icon-23" /></Link></li>
                         </ul>
                         </div>
                     </div>
@@ -137,7 +102,7 @@ export default function TeamSection() {
                     >
                     <div className="team_info">
                         <h4>
-                        <a href="team-details.html">Cody Fisher</a>
+                        Cody Fisher
                         </h4>
                         <span className="designation">Consultant</span>
                     </div>
