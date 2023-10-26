@@ -58,6 +58,7 @@ export default function RootLayout({
       <Script type="text/javascript" src="js/parallax.min.js"/>
       <Script type="text/javascript" src="js/jquery.fancybox.js"/>
       <Script type="text/javascript" src="js/parallax-scroll.js"/>
+      <Script type="text/javascript" src="js/isotope.js"/>
       <Script type="text/javascript" src="js/script.js"/>
     </html>
   )

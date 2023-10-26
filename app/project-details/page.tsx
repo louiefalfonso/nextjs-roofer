@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
+import ProjectDetails from '@/components/ProjectDetails'
 import NewsletterSection from '@/components/NewsletterSection'
-import ProjectSection from '@/components/ProjectSection'
 
 export default function page() {
   return (
@@ -10,16 +10,16 @@ export default function page() {
       <div className="bg-layer parallax-bg" data-parallax='{"y": 20}' style={{ backgroundImage: "url(images/resource/page-title.png)" }}></div>
       <div className="auto_container">
         <div className="content-box p_relative">
-          <h1 className="title">Projects</h1>
+          <h1 className="title">Project Details</h1>
           <ul className="bread-crumb">
             <li><Link href="/" passHref>Home</Link></li>
-            <li><span> - </span>Projects{" "}
+            <li><span> - </span>Projects Details{" "}
             </li>
           </ul>
         </div>
       </div>
     </section>
-    <ProjectSection/>
+    <ProjectDetails/>
     <NewsletterSection/>
     </>
   )
