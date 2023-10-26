@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function ServicesList() {
   return (
@@ -16,9 +17,9 @@ export default function ServicesList() {
                     <div className="inner__box">
                     <div className="image__box">
                         <figure className="image">
-                        <a href="service-details.html">
+                           <Link href="/service-details" passHref>
                             <img src="images/service/service-01.png" alt="" />
-                        </a>
+                            </Link> 
                         </figure>
                     </div>
                     <div className="lower__content">
@@ -48,7 +49,7 @@ export default function ServicesList() {
                         <div className="service__title">
                         <h4>
                             {" "}
-                            <a href="service-details.html"> Roofing Layer </a>
+                            <Link href="/service-details" passHref>Roofing Layer</Link>
                         </h4>
                         </div>
                         <div className="service__text">
@@ -58,10 +59,10 @@ export default function ServicesList() {
                         </p>
                         </div>
                         <div className="more__btn">
-                        <a href="service-details.html">
+                            <Link href="/service-details" passHref>
                             Read More <span className="icon-53" />{" "}
                             <span className="icon-52" />
-                        </a>
+                            </Link>
                         </div>
                     </div>
                     </div>
@@ -76,9 +77,9 @@ export default function ServicesList() {
                     <div className="inner__box">
                     <div className="image__box">
                         <figure className="image">
-                        <a href="service-details.html">
+                          <Link href="/service-details" passHref>
                             <img src="images/service/service-02.png" alt="" />
-                        </a>
+                            </Link>  
                         </figure>
                     </div>
                     <div className="lower__content">
@@ -108,7 +109,7 @@ export default function ServicesList() {
                         <div className="service__title">
                         <h4>
                             {" "}
-                            <a href="service-details.html"> Damage Repair </a>
+                           <Link href="/service-details" passHref>Damage Repair</Link>  
                         </h4>
                         </div>
                         <div className="service__text">
@@ -118,10 +119,10 @@ export default function ServicesList() {
                         </p>
                         </div>
                         <div className="more__btn">
-                        <a href="service-details.html">
+                        <Link href="/service-details" passHref>
                             Read More <span className="icon-53" />{" "}
                             <span className="icon-52" />
-                        </a>
+                        </Link>
                         </div>
                     </div>
                     </div>
@@ -136,9 +137,9 @@ export default function ServicesList() {
                     <div className="inner__box">
                     <div className="image__box">
                         <figure className="image">
-                        <a href="service-details.html">
-                            <img src="images/service/service-03.png" alt="" />
-                        </a>
+                            <Link href="/service-details" passHref>
+                                <img src="images/service/service-03.png" alt="" />
+                            </Link>
                         </figure>
                     </div>
                     <div className="lower__content">
@@ -168,7 +169,7 @@ export default function ServicesList() {
                         <div className="service__title">
                         <h4>
                             {" "}
-                            <a href="service-details.html">Roof Cornering </a>
+                            <Link href="/service-details" passHref>Roof Cornering</Link>
                         </h4>
                         </div>
                         <div className="service__text">
@@ -178,10 +179,10 @@ export default function ServicesList() {
                         </p>
                         </div>
                         <div className="more__btn">
-                        <a href="service-details.html">
-                            Read More <span className="icon-53" />{" "}
+                            <Link href="/service-details" passHref>
+                                Read More <span className="icon-53" />{" "}
                             <span className="icon-52" />
-                        </a>
+                            </Link>
                         </div>
                     </div>
                     </div>
@@ -196,9 +197,9 @@ export default function ServicesList() {
                     <div className="inner__box">
                     <div className="image__box">
                         <figure className="image">
-                        <a href="service-details.html">
-                            <img src="images/service/service-04.png" alt="" />
-                        </a>
+                            <Link href="/service-details" passHref>
+                                <img src="images/service/service-04.png" alt="" />
+                            </Link>
                         </figure>
                     </div>
                     <div className="lower__content">
@@ -228,7 +229,7 @@ export default function ServicesList() {
                         <div className="service__title">
                         <h4>
                             {" "}
-                            <a href="service-details.html"> Siding Install </a>
+                            <Link href="/service-details" passHref> Siding Install </Link>
                         </h4>
                         </div>
                         <div className="service__text">
@@ -238,10 +239,10 @@ export default function ServicesList() {
                         </p>
                         </div>
                         <div className="more__btn">
-                        <a href="service-details.html">
-                            Read More <span className="icon-53" />{" "}
+                            <Link href="/service-details" passHref>
+                                Read More <span className="icon-53" />{" "}
                             <span className="icon-52" />
-                        </a>
+                            </Link>
                         </div>
                     </div>
                     </div>
@@ -256,9 +257,9 @@ export default function ServicesList() {
                     <div className="inner__box">
                     <div className="image__box">
                         <figure className="image">
-                        <a href="service-details.html">
-                            <img src="images/service/service-05.png" alt="" />
-                        </a>
+                            <Link href="/service-details" passHref>
+                                <img src="images/service/service-05.png" alt="" />
+                            </Link>
                         </figure>
                     </div>
                     <div className="lower__content">
@@ -288,7 +289,7 @@ export default function ServicesList() {
                         <div className="service__title">
                         <h4>
                             {" "}
-                            <a href="service-details.html"> Corner Fixing </a>
+                            <Link href="/service-details" passHref> Corner Fixing </Link>
                         </h4>
                         </div>
                         <div className="service__text">
@@ -298,10 +299,10 @@ export default function ServicesList() {
                         </p>
                         </div>
                         <div className="more__btn">
-                        <a href="service-details.html">
-                            Read More <span className="icon-53" />{" "}
+                            <Link href="/service-details" passHref>
+                                Read More <span className="icon-53" />{" "}
                             <span className="icon-52" />
-                        </a>
+                            </Link>
                         </div>
                     </div>
                     </div>
@@ -316,9 +317,9 @@ export default function ServicesList() {
                     <div className="inner__box">
                     <div className="image__box">
                         <figure className="image">
-                        <a href="service-details.html">
-                            <img src="images/service/service-06.png" alt="" />
-                        </a>
+                            <Link href="/service-details" passHref>
+                                <img src="images/service/service-06.png" alt="" />
+                            </Link>
                         </figure>
                     </div>
                     <div className="lower__content">
@@ -348,7 +349,7 @@ export default function ServicesList() {
                         <div className="service__title">
                         <h4>
                             {" "}
-                            <a href="service-details.html">Metal Roofing </a>
+                            <Link href="/service-details" passHref>Metal Roofing</Link>
                         </h4>
                         </div>
                         <div className="service__text">
@@ -358,10 +359,10 @@ export default function ServicesList() {
                         </p>
                         </div>
                         <div className="more__btn">
-                        <a href="service-details.html">
-                            Read More <span className="icon-53" />{" "}
+                            <Link href="/service-details" passHref>
+                                Read More <span className="icon-53" />{" "}
                             <span className="icon-52" />
-                        </a>
+                            </Link>
                         </div>
                     </div>
                     </div>
