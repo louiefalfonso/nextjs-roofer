@@ -52,11 +52,6 @@ export default function ProjectDetails() {
                         </li>
                         <li>
                             {" "}
-                            <p>Website :</p>{" "}
-                            <a href="www.rooftox.com">www.rooftox.com</a>
-                        </li>
-                        <li>
-                            {" "}
                             <p>Rating :</p>
                             <ul className="rating">
                             <li>
